@@ -1,0 +1,22 @@
+# 原始数据（Olist CSV 体积大，不上传）
+data/*
+!data/README.md
+
+# DuckDB 数据库文件
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 密钥和本地配置
+.env
+
+# 编辑器 / 系统
+.vscode/
+.DS_Store
+Thumbs.db
